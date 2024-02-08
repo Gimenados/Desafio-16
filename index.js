@@ -151,7 +151,7 @@ function addContact(contact) {
     const table = document.createElement("table");
   
     // Creamos el encabezado de la tabla
-    const board = document.createElement("board");
+    const thead = document.createElement("thead");
     const row = document.createElement("tr");
     row.innerHTML = `
         <th>Nombre</th>
@@ -159,8 +159,8 @@ function addContact(contact) {
         <th>Fecha de Nacimiento</th>
         <th>Acciones</th>
     `;
-    board.appendChild(row);
-    table.appendChild(board);
+    thead.appendChild(row);
+    table.appendChild(thead);
   
     // Iterate sobre la lista de contactos y crea filas de tabla con datos de nombre, email, fecha de nacimiento y botones para editar y eliminar
     for (const contact of contacts) {

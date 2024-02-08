@@ -13,11 +13,10 @@ h3 {
 html {
     display: flex;
     justify-content: center;
-    background-color: rgb(84, 85, 85);
+    background-color: #A98F7E;
     align-items: center;
     align-content: center;
     padding: 2rem;
-    background: linear-gradient(236deg, #6f5ee5, #571978);
 }
 
 .containerForm {
@@ -36,17 +35,13 @@ html {
     width: 65%;
     border: 1px solid black;
     height: 50% !important;
-    background-color: rgb(250, 250, 250);
+    background-image: url(https://i.pinimg.com/564x/8d/95/fd/8d95fd846ef685ca428744a2c5e14b93.jpg);
+    border-radius: 10%;
 }
 
 label {
     margin: 0.8rem 0;
     text-transform: uppercase;
-}
-
-.input-msg-error {
-    display: none;
-    color: rgb(216, 3, 3);
 }
 
 input {
@@ -62,28 +57,27 @@ input {
 }
 
 #contactList {
-    padding-left: 0px !important;
+    padding-left: 8px !important;
 }
 
 button {
     margin: 0.8rem 0;
-    padding: 0.5rem;
-    background-color: #6f5ee5;
+    padding: 0.2rem;
+    background-color: #A98F7E;
     font-weight: 900;
     text-transform: uppercase;
 }
 
-button:hover {
-    background-color: #571978;
+.listContainer {
+    background-image: url(https://i.pinimg.com/564x/8d/95/fd/8d95fd846ef685ca428744a2c5e14b93.jpg);
 }
 
 .listContainer table {
     border: 1px solid black;
-    padding: 0.5rem;
     width: 100%;
 }
 
-tr th {
+tr {
     border-bottom: 1px solid black;
     padding-bottom: 0.5rem;
 }
